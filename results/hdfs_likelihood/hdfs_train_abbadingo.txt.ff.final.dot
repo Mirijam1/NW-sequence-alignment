@@ -1,0 +1,488 @@
+// produced with flexfringe // 
+digraph DFA {
+	0 [label="root" shape=box];
+		I -> 0;
+	0 [ label="0 #15670\nfin: 1:960 , 
+ path: 1:14710 , 
+14710 960", style=filled, fillcolor="firebrick1", width=2.36646, height=2.36646, penwidth=9.65957];
+		0 -> 1 [label="5 3642 " , penwidth=9.65957 ];
+		0 -> 2 [label="22 1264 " , penwidth=9.65957 ];
+		0 -> 0 [label="11 458 " , penwidth=9.65957 ];
+		0 -> 0 [label="9 576 " , penwidth=9.65957 ];
+		0 -> 0 [label="26 673 " , penwidth=9.65957 ];
+		0 -> 0 [label="23 2522 " , penwidth=9.65957 ];
+		0 -> 0 [label="21 2711 " , penwidth=9.65957 ];
+		0 -> 0 [label="2 242 " , penwidth=9.65957 ];
+		0 -> 0 [label="3 1279 " , penwidth=9.65957 ];
+		0 -> 0 [label="4 1271 " , penwidth=9.65957 ];
+		0 -> 0 [label="25 16 " , penwidth=9.65957 ];
+		0 -> 0 [label="18 27 " , penwidth=9.65957 ];
+		0 -> 0 [label="6 19 " , penwidth=9.65957 ];
+		0 -> 0 [label="16 10 " , penwidth=9.65957 ];
+	1 [ label="1 #3642\nfin: 
+ path: 1:3642 , 
+3642 0", style=filled, fillcolor="firebrick1", width=2.21926, height=2.21926, penwidth=8.20056];
+		1 -> 4 [label="5 2594 " , penwidth=8.20056 ];
+		1 -> 5 [label="22 999 " , penwidth=8.20056 ];
+		1 -> 0 [label="11 19 " , penwidth=8.20056 ];
+		1 -> 0 [label="26 1 " , penwidth=8.20056 ];
+		1 -> 0 [label="6 10 " , penwidth=8.20056 ];
+		1 -> 0 [label="16 19 " , penwidth=8.20056 ];
+	2 [ label="2 #1264\nfin: 1:1 , 
+ path: 1:1263 , 
+1263 1", style=filled, fillcolor="firebrick1", width=2.09714, height=2.09714, penwidth=7.14283];
+		2 -> 7 [label="5 1258 " , penwidth=7.14283 ];
+		2 -> 0 [label="11 1 " , penwidth=7.14283 ];
+		2 -> 0 [label="26 4 " , penwidth=7.14283 ];
+	4 [ label="4 #2594\nfin: 
+ path: 1:2594 , 
+2594 0", style=filled, fillcolor="firebrick1", width=2.1817, height=2.1817, penwidth=7.86134];
+		4 -> 10 [label="5 1637 " , penwidth=7.86134 ];
+		4 -> 12 [label="22 956 " , penwidth=7.86134 ];
+		4 -> 0 [label="11 1 " , penwidth=7.86134 ];
+	5 [ label="5 #999\nfin: 
+ path: 1:999 , 
+999 0", style=filled, fillcolor="firebrick1", width=2.06784, height=2.06784, penwidth=6.90776];
+		5 -> 12 [label="5 999 " , penwidth=6.90776 ];
+	7 [ label="7 #1258\nfin: 
+ path: 1:1258 , 
+1258 0", style=filled, fillcolor="firebrick1", width=2.09655, height=2.09655, penwidth=7.13807];
+		7 -> 14 [label="5 1257 " , penwidth=7.13807 ];
+		7 -> 0 [label="11 1 " , penwidth=7.13807 ];
+	10 [ label="10 #1637\nfin: 
+ path: 1:1637 , 
+1637 0", style=filled, fillcolor="firebrick1", width=2.12838, height=2.12838, penwidth=7.40123];
+		10 -> 18 [label="22 1637 " , penwidth=7.40123 ];
+	12 [ label="12 #1955\nfin: 
+ path: 1:1955 , 
+1955 0", style=filled, fillcolor="firebrick1", width=2.14928, height=2.14928, penwidth=7.57866];
+		12 -> 21 [label="5 1952 " , penwidth=7.57866 ];
+		12 -> 0 [label="11 3 " , penwidth=7.57866 ];
+	14 [ label="14 #1257\nfin: 
+ path: 1:1257 , 
+1257 0", style=filled, fillcolor="firebrick1", width=2.09646, height=2.09646, penwidth=7.13728];
+		14 -> 24 [label="5 1255 " , penwidth=7.13728 ];
+		14 -> 0 [label="26 2 " , penwidth=7.13728 ];
+	18 [ label="18 #1637\nfin: 
+ path: 1:1637 , 
+1637 0", style=filled, fillcolor="firebrick1", width=2.12838, height=2.12838, penwidth=7.40123];
+		18 -> 29 [label="11 1575 " , penwidth=7.40123 ];
+		18 -> 147 [label="9 35 " , penwidth=7.40123 ];
+		18 -> 147 [label="26 27 " , penwidth=7.40123 ];
+	21 [ label="21 #1952\nfin: 
+ path: 1:1952 , 
+1952 0", style=filled, fillcolor="firebrick1", width=2.1491, height=2.1491, penwidth=7.57712];
+		21 -> 29 [label="11 1859 " , penwidth=7.57712 ];
+		21 -> 348 [label="9 45 " , penwidth=7.57712 ];
+		21 -> 465 [label="26 48 " , penwidth=7.57712 ];
+	24 [ label="24 #1255\nfin: 
+ path: 1:1255 , 
+1255 0", style=filled, fillcolor="firebrick1", width=2.09626, height=2.09626, penwidth=7.13569];
+		24 -> 42 [label="11 378 " , penwidth=7.13569 ];
+		24 -> 0 [label="9 13 " , penwidth=7.13569 ];
+		24 -> 44 [label="26 864 " , penwidth=7.13569 ];
+	29 [ label="29 #3434\nfin: 
+ path: 1:3434 , 
+3434 0", style=filled, fillcolor="firebrick1", width=2.21285, height=2.21285, penwidth=8.14177];
+		29 -> 0 [label="11 23 " , penwidth=8.14177 ];
+		29 -> 50 [label="9 3411 " , penwidth=8.14177 ];
+	42 [ label="42 #378\nfin: 
+ path: 1:378 , 
+378 0", style=filled, fillcolor="firebrick1", width=1.93695, height=1.93695, penwidth=5.93754];
+		42 -> 75 [label="9 378 " , penwidth=5.93754 ];
+	44 [ label="44 #864\nfin: 
+ path: 1:864 , 
+864 0", style=filled, fillcolor="firebrick1", width=2.04933, height=2.04933, penwidth=6.76273];
+		44 -> 79 [label="11 64 " , penwidth=6.76273 ];
+		44 -> 0 [label="9 6 " , penwidth=6.76273 ];
+		44 -> 81 [label="26 794 " , penwidth=6.76273 ];
+	50 [ label="50 #3411\nfin: 
+ path: 1:3411 , 
+3411 0", style=filled, fillcolor="firebrick1", width=2.21212, height=2.21212, penwidth=8.13505];
+		50 -> 88 [label="11 3159 " , penwidth=8.13505 ];
+		50 -> 0 [label="9 31 " , penwidth=8.13505 ];
+		50 -> 90 [label="26 221 " , penwidth=8.13505 ];
+	75 [ label="75 #378\nfin: 
+ path: 1:378 , 
+378 0", style=filled, fillcolor="firebrick1", width=1.93695, height=1.93695, penwidth=5.93754];
+		75 -> 88 [label="11 324 " , penwidth=5.93754 ];
+		75 -> 0 [label="9 7 " , penwidth=5.93754 ];
+		75 -> 134 [label="26 47 " , penwidth=5.93754 ];
+	79 [ label="79 #64\nfin: 
+ path: 1:64 , 
+64 0", style=filled, fillcolor="firebrick1", width=1.64372, height=1.64372, penwidth=4.17439];
+		79 -> 134 [label="9 64 " , penwidth=4.17439 ];
+	81 [ label="81 #794\nfin: 
+ path: 1:794 , 
+794 0", style=filled, fillcolor="firebrick1", width=2.0384, height=2.0384, penwidth=6.67834];
+		81 -> 137 [label="11 118 " , penwidth=6.67834 ];
+		81 -> 0 [label="9 8 " , penwidth=6.67834 ];
+		81 -> 139 [label="26 668 " , penwidth=6.67834 ];
+	88 [ label="88 #3516\nfin: 
+ path: 1:3516 , 
+3516 0", style=filled, fillcolor="firebrick1", width=2.21543, height=2.21543, penwidth=8.16536];
+		88 -> 0 [label="11 15 " , penwidth=8.16536 ];
+		88 -> 147 [label="9 3501 " , penwidth=8.16536 ];
+	90 [ label="90 #221\nfin: 
+ path: 1:221 , 
+221 0", style=filled, fillcolor="firebrick1", width=1.85672, height=1.85672, penwidth=5.40268];
+		90 -> 151 [label="11 176 " , penwidth=5.40268 ];
+		90 -> 465 [label="26 45 " , penwidth=5.40268 ];
+	134 [ label="134 #111\nfin: 
+ path: 1:111 , 
+111 0", style=filled, fillcolor="firebrick1", width=1.74371, height=1.74371, penwidth=4.7185];
+		134 -> 330 [label="11 41 " , penwidth=4.7185 ];
+		134 -> 0 [label="9 1 " , penwidth=4.7185 ];
+		134 -> 216 [label="26 69 " , penwidth=4.7185 ];
+	137 [ label="137 #118\nfin: 
+ path: 1:118 , 
+118 0", style=filled, fillcolor="firebrick1", width=1.75425, height=1.75425, penwidth=4.77912];
+		137 -> 0 [label="11 1 " , penwidth=4.77912 ];
+		137 -> 220 [label="9 117 " , penwidth=4.77912 ];
+	139 [ label="139 #668\nfin: 
+ path: 1:668 , 
+668 0", style=filled, fillcolor="firebrick1", width=2.01567, height=2.01567, penwidth=6.50578];
+		139 -> 222 [label="11 663 " , penwidth=6.50578 ];
+		139 -> 0 [label="9 5 " , penwidth=6.50578 ];
+	147 [ label="147 #3563\nfin: 
+ path: 1:3563 , 
+3563 0", style=filled, fillcolor="firebrick1", width=2.21688, height=2.21688, penwidth=8.17864];
+		147 -> 232 [label="11 3004 " , penwidth=8.17864 ];
+		147 -> 0 [label="9 15 " , penwidth=8.17864 ];
+		147 -> 234 [label="26 544 " , penwidth=8.17864 ];
+	151 [ label="151 #176\nfin: 
+ path: 1:176 , 
+176 0", style=filled, fillcolor="firebrick1", width=1.8207, height=1.8207, penwidth=5.17615];
+		151 -> 0 [label="11 1 " , penwidth=5.17615 ];
+		151 -> 239 [label="9 175 " , penwidth=5.17615 ];
+	216 [ label="216 #69\nfin: 
+ path: 1:69 , 
+69 0", style=filled, fillcolor="firebrick1", width=1.65794, height=1.65794, penwidth=4.2485];
+		216 -> 0 [label="11 9 " , penwidth=4.2485 ];
+		216 -> 335 [label="26 60 " , penwidth=4.2485 ];
+	220 [ label="220 #117\nfin: 
+ path: 1:117 , 
+117 0", style=filled, fillcolor="firebrick1", width=1.75279, height=1.75279, penwidth=4.77068];
+		220 -> 330 [label="11 106 " , penwidth=4.77068 ];
+		220 -> 0 [label="9 3 " , penwidth=4.77068 ];
+		220 -> 0 [label="26 8 " , penwidth=4.77068 ];
+	222 [ label="222 #663\nfin: 
+ path: 1:663 , 
+663 0", style=filled, fillcolor="firebrick1", width=2.01467, height=2.01467, penwidth=6.49828];
+		222 -> 0 [label="11 6 " , penwidth=6.49828 ];
+		222 -> 335 [label="9 657 " , penwidth=6.49828 ];
+	232 [ label="232 #3004\nfin: 
+ path: 1:3004 , 
+3004 0", style=filled, fillcolor="firebrick1", width=2.19812, height=2.19812, penwidth=8.00803];
+		232 -> 0 [label="11 3 " , penwidth=8.00803 ];
+		232 -> 345 [label="9 2999 " , penwidth=8.00803 ];
+		232 -> 0 [label="26 2 " , penwidth=8.00803 ];
+	234 [ label="234 #544\nfin: 
+ path: 1:544 , 
+544 0", style=filled, fillcolor="firebrick1", width=1.98798, height=1.98798, penwidth=6.30079];
+		234 -> 355 [label="11 112 " , penwidth=6.30079 ];
+		234 -> 348 [label="26 432 " , penwidth=6.30079 ];
+	239 [ label="239 #175\nfin: 
+ path: 1:175 , 
+175 0", style=filled, fillcolor="firebrick1", width=1.81978, height=1.81978, penwidth=5.17048];
+		239 -> 355 [label="11 168 " , penwidth=5.17048 ];
+		239 -> 0 [label="26 7 " , penwidth=5.17048 ];
+	330 [ label="330 #147\nfin: 
+ path: 1:147 , 
+147 0", style=filled, fillcolor="firebrick1", width=1.79129, height=1.79129, penwidth=4.99721];
+		330 -> 465 [label="9 147 " , penwidth=4.99721 ];
+	335 [ label="335 #717\nfin: 
+ path: 1:717 , 
+717 0", style=filled, fillcolor="firebrick1", width=2.02505, height=2.02505, penwidth=6.57647];
+		335 -> 472 [label="11 717 " , penwidth=6.57647 ];
+	345 [ label="345 #2999\nfin: 
+ path: 1:2999 , 
+2999 0", style=filled, fillcolor="firebrick1", width=2.19793, height=2.19793, penwidth=8.00637];
+		345 -> 88 [label="11 33 " , penwidth=8.00637 ];
+		345 -> 0 [label="9 1 " , penwidth=8.00637 ];
+		345 -> 482 [label="26 2965 " , penwidth=8.00637 ];
+	348 [ label="348 #477\nfin: 
+ path: 1:477 , 
+477 0", style=filled, fillcolor="firebrick1", width=1.96985, height=1.96985, penwidth=6.16961];
+		348 -> 485 [label="11 365 " , penwidth=6.16961 ];
+		348 -> 0 [label="9 5 " , penwidth=6.16961 ];
+		348 -> 486 [label="26 107 " , penwidth=6.16961 ];
+	355 [ label="355 #280\nfin: 
+ path: 1:280 , 
+280 0", style=filled, fillcolor="firebrick1", width=1.89286, height=1.89286, penwidth=5.63835];
+		355 -> 0 [label="11 5 " , penwidth=5.63835 ];
+		355 -> 482 [label="9 274 " , penwidth=5.63835 ];
+		355 -> 0 [label="26 1 " , penwidth=5.63835 ];
+	465 [ label="465 #240\nfin: 
+ path: 1:240 , 
+240 0", style=filled, fillcolor="firebrick1", width=1.86946, height=1.86946, penwidth=5.4848];
+		465 -> 625 [label="11 128 " , penwidth=5.4848 ];
+		465 -> 0 [label="9 2 " , penwidth=5.4848 ];
+		465 -> 627 [label="26 110 " , penwidth=5.4848 ];
+	472 [ label="472 #717\nfin: 
+ path: 1:717 , 
+717 0", style=filled, fillcolor="firebrick1", width=2.02505, height=2.02505, penwidth=6.57647];
+		472 -> 0 [label="11 4 " , penwidth=6.57647 ];
+		472 -> 635 [label="9 713 " , penwidth=6.57647 ];
+	482 [ label="482 #3239\nfin: 
+ path: 1:3239 , 
+3239 0", style=filled, fillcolor="firebrick1", width=2.20644, height=2.20644, penwidth=8.08333];
+		482 -> 0 [label="11 7 " , penwidth=8.08333 ];
+		482 -> 645 [label="26 3232 " , penwidth=8.08333 ];
+	485 [ label="485 #365\nfin: 
+ path: 1:365 , 
+365 0", style=filled, fillcolor="firebrick1", width=1.9319, height=1.9319, penwidth=5.90263];
+		485 -> 0 [label="11 4 " , penwidth=5.90263 ];
+		485 -> 649 [label="9 359 " , penwidth=5.90263 ];
+		485 -> 0 [label="26 2 " , penwidth=5.90263 ];
+	486 [ label="486 #107\nfin: 
+ path: 1:107 , 
+107 0", style=filled, fillcolor="firebrick1", width=1.73733, height=1.73733, penwidth=4.68213];
+		486 -> 650 [label="11 106 " , penwidth=4.68213 ];
+		486 -> 0 [label="9 1 " , penwidth=4.68213 ];
+	625 [ label="625 #128\nfin: 
+ path: 1:128 , 
+128 0", style=filled, fillcolor="firebrick1", width=1.76812, height=1.76812, penwidth=4.85981];
+		625 -> 797 [label="9 128 " , penwidth=4.85981 ];
+	627 [ label="627 #110\nfin: 
+ path: 1:110 , 
+110 0", style=filled, fillcolor="firebrick1", width=1.74214, height=1.74214, penwidth=4.70953];
+		627 -> 799 [label="11 79 " , penwidth=4.70953 ];
+		627 -> 0 [label="9 3 " , penwidth=4.70953 ];
+		627 -> 0 [label="26 28 " , penwidth=4.70953 ];
+	635 [ label="635 #713\nfin: 
+ path: 1:713 , 
+713 0", style=filled, fillcolor="firebrick1", width=2.02431, height=2.02431, penwidth=6.57088];
+		635 -> 809 [label="11 711 " , penwidth=6.57088 ];
+		635 -> 0 [label="9 2 " , penwidth=6.57088 ];
+	645 [ label="645 #3232\nfin: 1:3 , 
+ path: 1:3229 , 
+3229 3", style=filled, fillcolor="firebrick1", width=2.2062, height=2.2062, penwidth=8.08117];
+		645 -> 0 [label="11 8 " , penwidth=8.08117 ];
+		645 -> 820 [label="26 3202 " , penwidth=8.08117 ];
+		645 -> 0 [label="23 16 " , penwidth=8.08117 ];
+		645 -> 0 [label="2 1 " , penwidth=8.08117 ];
+		645 -> 0 [label="25 1 " , penwidth=8.08117 ];
+		645 -> 0 [label="18 1 " , penwidth=8.08117 ];
+	649 [ label="649 #359\nfin: 
+ path: 1:359 , 
+359 0", style=filled, fillcolor="firebrick1", width=1.92951, height=1.92951, penwidth=5.8861];
+		649 -> 0 [label="11 17 " , penwidth=5.8861 ];
+		649 -> 824 [label="26 342 " , penwidth=5.8861 ];
+	650 [ label="650 #106\nfin: 
+ path: 1:106 , 
+106 0", style=filled, fillcolor="firebrick1", width=1.73569, height=1.73569, penwidth=4.67283];
+		650 -> 0 [label="11 9 " , penwidth=4.67283 ];
+		650 -> 1293 [label="9 93 " , penwidth=4.67283 ];
+		650 -> 0 [label="23 3 " , penwidth=4.67283 ];
+		650 -> 0 [label="2 1 " , penwidth=4.67283 ];
+	797 [ label="797 #128\nfin: 
+ path: 1:128 , 
+128 0", style=filled, fillcolor="firebrick1", width=1.76812, height=1.76812, penwidth=4.85981];
+		797 -> 0 [label="11 45 " , penwidth=4.85981 ];
+		797 -> 987 [label="26 83 " , penwidth=4.85981 ];
+	799 [ label="799 #79\nfin: 
+ path: 1:79 , 
+79 0", style=filled, fillcolor="firebrick1", width=1.68307, height=1.68307, penwidth=4.38203];
+		799 -> 977 [label="9 79 " , penwidth=4.38203 ];
+	809 [ label="809 #711\nfin: 
+ path: 1:711 , 
+711 0", style=filled, fillcolor="firebrick1", width=2.02394, height=2.02394, penwidth=6.56808];
+		809 -> 987 [label="9 711 " , penwidth=6.56808 ];
+	820 [ label="820 #3577\nfin: 1:731 , 
+ path: 1:2846 , 
+2846 731", style=filled, fillcolor="firebrick1", width=2.21731, height=2.21731, penwidth=8.18256];
+		820 -> 1002 [label="23 2133 " , penwidth=8.18256 ];
+		820 -> 0 [label="21 2 " , penwidth=8.18256 ];
+		820 -> 820 [label="2 218 " , penwidth=8.18256 ];
+		820 -> 1004 [label="3 236 " , penwidth=8.18256 ];
+		820 -> 1005 [label="4 245 " , penwidth=8.18256 ];
+		820 -> 0 [label="25 11 " , penwidth=8.18256 ];
+		820 -> 0 [label="18 1 " , penwidth=8.18256 ];
+	824 [ label="824 #342\nfin: 1:88 , 
+ path: 1:254 , 
+254 88", style=filled, fillcolor="firebrick1", width=1.92246, height=1.92246, penwidth=5.83773];
+		824 -> 0 [label="5 1 " , penwidth=5.83773 ];
+		824 -> 0 [label="11 2 " , penwidth=5.83773 ];
+		824 -> 0 [label="26 7 " , penwidth=5.83773 ];
+		824 -> 1002 [label="23 186 " , penwidth=5.83773 ];
+		824 -> 0 [label="2 16 " , penwidth=5.83773 ];
+		824 -> 0 [label="3 24 " , penwidth=5.83773 ];
+		824 -> 0 [label="4 17 " , penwidth=5.83773 ];
+		824 -> 0 [label="25 1 " , penwidth=5.83773 ];
+	977 [ label="977 #79\nfin: 
+ path: 1:79 , 
+79 0", style=filled, fillcolor="firebrick1", width=1.68307, height=1.68307, penwidth=4.38203];
+		977 -> 0 [label="11 32 " , penwidth=4.38203 ];
+		977 -> 0 [label="26 1 " , penwidth=4.38203 ];
+		977 -> 0 [label="23 8 " , penwidth=4.38203 ];
+		977 -> 0 [label="2 4 " , penwidth=4.38203 ];
+		977 -> 0 [label="3 14 " , penwidth=4.38203 ];
+		977 -> 0 [label="4 20 " , penwidth=4.38203 ];
+	987 [ label="987 #794\nfin: 
+ path: 1:794 , 
+794 0", style=filled, fillcolor="firebrick1", width=2.0384, height=2.0384, penwidth=6.67834];
+		987 -> 0 [label="26 24 " , penwidth=6.67834 ];
+		987 -> 1002 [label="23 229 " , penwidth=6.67834 ];
+		987 -> 1293 [label="2 129 " , penwidth=6.67834 ];
+		987 -> 1294 [label="3 223 " , penwidth=6.67834 ];
+		987 -> 1005 [label="4 189 " , penwidth=6.67834 ];
+	1002 [ label="1002 #3066\nfin: 
+ path: 1:3066 , 
+3066 0", style=filled, fillcolor="firebrick1", width=2.20038, height=2.20038, penwidth=8.02846];
+		1002 -> 1314 [label="23 3066 " , penwidth=8.02846 ];
+	1004 [ label="1004 #236\nfin: 
+ path: 1:236 , 
+236 0", style=filled, fillcolor="firebrick1", width=1.86688, height=1.86688, penwidth=5.46806];
+		1004 -> 0 [label="23 8 " , penwidth=5.46806 ];
+		1004 -> 0 [label="2 4 " , penwidth=5.46806 ];
+		1004 -> 1321 [label="3 128 " , penwidth=5.46806 ];
+		1004 -> 1322 [label="4 96 " , penwidth=5.46806 ];
+	1005 [ label="1005 #549\nfin: 
+ path: 1:549 , 
+549 0", style=filled, fillcolor="firebrick1", width=1.98923, height=1.98923, penwidth=6.30992];
+		1005 -> 0 [label="23 6 " , penwidth=6.30992 ];
+		1005 -> 0 [label="2 4 " , penwidth=6.30992 ];
+		1005 -> 1323 [label="3 327 " , penwidth=6.30992 ];
+		1005 -> 1324 [label="4 212 " , penwidth=6.30992 ];
+	1293 [ label="1293 #222\nfin: 1:7 , 
+ path: 1:215 , 
+215 7", style=filled, fillcolor="firebrick1", width=1.85742, height=1.85742, penwidth=5.40717];
+		1293 -> 0 [label="11 5 " , penwidth=5.40717 ];
+		1293 -> 0 [label="26 2 " , penwidth=5.40717 ];
+		1293 -> 1002 [label="23 93 " , penwidth=5.40717 ];
+		1293 -> 0 [label="2 21 " , penwidth=5.40717 ];
+		1293 -> 0 [label="3 17 " , penwidth=5.40717 ];
+		1293 -> 1005 [label="4 77 " , penwidth=5.40717 ];
+	1294 [ label="1294 #223\nfin: 
+ path: 1:223 , 
+223 0", style=filled, fillcolor="firebrick1", width=1.85812, height=1.85812, penwidth=5.41165];
+		1294 -> 0 [label="23 5 " , penwidth=5.41165 ];
+		1294 -> 0 [label="2 10 " , penwidth=5.41165 ];
+		1294 -> 1692 [label="3 123 " , penwidth=5.41165 ];
+		1294 -> 1693 [label="4 85 " , penwidth=5.41165 ];
+	1314 [ label="1314 #3066\nfin: 
+ path: 1:3066 , 
+3066 0", style=filled, fillcolor="firebrick1", width=2.20038, height=2.20038, penwidth=8.02846];
+		1314 -> 1715 [label="23 3066 " , penwidth=8.02846 ];
+	1321 [ label="1321 #128\nfin: 
+ path: 1:128 , 
+128 0", style=filled, fillcolor="firebrick1", width=1.76812, height=1.76812, penwidth=4.85981];
+		1321 -> 0 [label="23 1 " , penwidth=4.85981 ];
+		1321 -> 0 [label="3 9 " , penwidth=4.85981 ];
+		1321 -> 1727 [label="4 118 " , penwidth=4.85981 ];
+	1322 [ label="1322 #128\nfin: 
+ path: 1:128 , 
+128 0", style=filled, fillcolor="firebrick1", width=1.76812, height=1.76812, penwidth=4.85981];
+		1322 -> 1727 [label="3 128 " , penwidth=4.85981 ];
+	1323 [ label="1323 #327\nfin: 
+ path: 1:327 , 
+327 0", style=filled, fillcolor="firebrick1", width=1.91589, height=1.91589, penwidth=5.79301];
+		1323 -> 0 [label="23 4 " , penwidth=5.79301 ];
+		1323 -> 0 [label="2 3 " , penwidth=5.79301 ];
+		1323 -> 1005 [label="3 38 " , penwidth=5.79301 ];
+		1323 -> 1732 [label="4 282 " , penwidth=5.79301 ];
+	1324 [ label="1324 #212\nfin: 
+ path: 1:212 , 
+212 0", style=filled, fillcolor="firebrick1", width=1.85023, height=1.85023, penwidth=5.36129];
+		1324 -> 0 [label="23 1 " , penwidth=5.36129 ];
+		1324 -> 1732 [label="3 181 " , penwidth=5.36129 ];
+		1324 -> 0 [label="4 30 " , penwidth=5.36129 ];
+	1692 [ label="1692 #123\nfin: 
+ path: 1:123 , 
+123 0", style=filled, fillcolor="firebrick1", width=1.76135, height=1.76135, penwidth=4.82028];
+		1692 -> 0 [label="3 17 " , penwidth=4.82028 ];
+		1692 -> 2148 [label="4 106 " , penwidth=4.82028 ];
+	1693 [ label="1693 #85\nfin: 
+ path: 1:85 , 
+85 0", style=filled, fillcolor="firebrick1", width=1.69641, height=1.69641, penwidth=4.45435];
+		1693 -> 2149 [label="3 85 " , penwidth=4.45435 ];
+	1715 [ label="1715 #12261\nfin: 1:3065 , 
+ path: 1:9196 , 
+9196 3065", style=filled, fillcolor="firebrick1", width=2.34318, height=2.34318, penwidth=9.41426];
+		1715 -> 1715 [label="21 9195 " , penwidth=9.41426 ];
+		1715 -> 0 [label="2 1 " , penwidth=9.41426 ];
+	1727 [ label="1727 #246\nfin: 
+ path: 1:246 , 
+246 0", style=filled, fillcolor="firebrick1", width=1.87325, height=1.87325, penwidth=5.50939];
+		1727 -> 0 [label="23 49 " , penwidth=5.50939 ];
+		1727 -> 0 [label="2 22 " , penwidth=5.50939 ];
+		1727 -> 2189 [label="3 168 " , penwidth=5.50939 ];
+		1727 -> 0 [label="4 7 " , penwidth=5.50939 ];
+	1732 [ label="1732 #851\nfin: 
+ path: 1:851 , 
+851 0", style=filled, fillcolor="firebrick1", width=2.04738, height=2.04738, penwidth=6.74759];
+		1732 -> 1002 [label="23 425 " , penwidth=6.74759 ];
+		1732 -> 1732 [label="2 388 " , penwidth=6.74759 ];
+		1732 -> 0 [label="3 34 " , penwidth=6.74759 ];
+		1732 -> 0 [label="4 4 " , penwidth=6.74759 ];
+	2148 [ label="2148 #106\nfin: 
+ path: 1:106 , 
+106 0", style=filled, fillcolor="firebrick1", width=1.73569, height=1.73569, penwidth=4.67283];
+		2148 -> 0 [label="2 3 " , penwidth=4.67283 ];
+		2148 -> 2691 [label="3 92 " , penwidth=4.67283 ];
+		2148 -> 0 [label="4 11 " , penwidth=4.67283 ];
+	2149 [ label="2149 #85\nfin: 
+ path: 1:85 , 
+85 0", style=filled, fillcolor="firebrick1", width=1.69641, height=1.69641, penwidth=4.45435];
+		2149 -> 0 [label="2 2 " , penwidth=4.45435 ];
+		2149 -> 2694 [label="3 70 " , penwidth=4.45435 ];
+		2149 -> 0 [label="4 13 " , penwidth=4.45435 ];
+	2189 [ label="2189 #168\nfin: 
+ path: 1:168 , 
+168 0", style=filled, fillcolor="firebrick1", width=1.81318, height=1.81318, penwidth=5.1299];
+		2189 -> 0 [label="23 2 " , penwidth=5.1299 ];
+		2189 -> 2745 [label="3 97 " , penwidth=5.1299 ];
+		2189 -> 2746 [label="4 69 " , penwidth=5.1299 ];
+	2691 [ label="2691 #92\nfin: 
+ path: 1:92 , 
+92 0", style=filled, fillcolor="firebrick1", width=1.71066, height=1.71066, penwidth=4.5326];
+		2691 -> 3301 [label="3 60 " , penwidth=4.5326 ];
+		2691 -> 1322 [label="4 32 " , penwidth=4.5326 ];
+	2694 [ label="2694 #147\nfin: 
+ path: 1:147 , 
+147 0", style=filled, fillcolor="firebrick1", width=1.79129, height=1.79129, penwidth=4.99721];
+		2694 -> 0 [label="23 1 " , penwidth=4.99721 ];
+		2694 -> 0 [label="3 49 " , penwidth=4.99721 ];
+		2694 -> 3307 [label="4 97 " , penwidth=4.99721 ];
+	2745 [ label="2745 #97\nfin: 
+ path: 1:97 , 
+97 0", style=filled, fillcolor="firebrick1", width=1.72008, height=1.72008, penwidth=4.58497];
+		2745 -> 0 [label="23 2 " , penwidth=4.58497 ];
+		2745 -> 820 [label="4 95 " , penwidth=4.58497 ];
+	2746 [ label="2746 #69\nfin: 
+ path: 1:69 , 
+69 0", style=filled, fillcolor="firebrick1", width=1.65794, height=1.65794, penwidth=4.2485];
+		2746 -> 0 [label="23 7 " , penwidth=4.2485 ];
+		2746 -> 820 [label="3 62 " , penwidth=4.2485 ];
+	3301 [ label="3301 #60\nfin: 
+ path: 1:60 , 
+60 0", style=filled, fillcolor="firebrick1", width=1.63137, height=1.63137, penwidth=4.11087];
+		3301 -> 3955 [label="4 60 " , penwidth=4.11087 ];
+	3307 [ label="3307 #97\nfin: 
+ path: 1:97 , 
+97 0", style=filled, fillcolor="firebrick1", width=1.72008, height=1.72008, penwidth=4.58497];
+		3307 -> 0 [label="23 3 " , penwidth=4.58497 ];
+		3307 -> 3961 [label="3 94 " , penwidth=4.58497 ];
+	3955 [ label="3955 #60\nfin: 
+ path: 1:60 , 
+60 0", style=filled, fillcolor="firebrick1", width=1.63137, height=1.63137, penwidth=4.11087];
+		3955 -> 4515 [label="3 58 " , penwidth=4.11087 ];
+		3955 -> 0 [label="4 2 " , penwidth=4.11087 ];
+	3961 [ label="3961 #139\nfin: 
+ path: 1:139 , 
+139 0", style=filled, fillcolor="firebrick1", width=1.78199, height=1.78199, penwidth=4.94164];
+		3961 -> 0 [label="23 44 " , penwidth=4.94164 ];
+		3961 -> 0 [label="2 1 " , penwidth=4.94164 ];
+		3961 -> 2694 [label="3 77 " , penwidth=4.94164 ];
+		3961 -> 0 [label="4 17 " , penwidth=4.94164 ];
+	4515 [ label="4515 #58\nfin: 
+ path: 1:58 , 
+58 0", style=filled, fillcolor="firebrick1", width=1.62483, height=1.62483, penwidth=4.07754];
+		4515 -> 5064 [label="3 45 " , penwidth=4.07754 ];
+		4515 -> 0 [label="4 13 " , penwidth=4.07754 ];
+	5064 [ label="5064 #45\nfin: 
+ path: 1:45 , 
+45 0", style=filled, fillcolor="firebrick1", width=1.57457, height=1.57457, penwidth=3.82864];
+		5064 -> 3961 [label="4 45 " , penwidth=3.82864 ];
+}

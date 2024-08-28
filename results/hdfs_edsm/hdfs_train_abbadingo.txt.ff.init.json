@@ -1,0 +1,39 @@
+{
+	"types" : [
+"1"
+	],
+	"alphabet" : [
+"5",
+"22",
+"11",
+"9",
+"26",
+"23",
+"21",
+"2",
+"3",
+"4",
+"25",
+"18",
+"6",
+"16"
+	],
+	"nodes" : [
+		{
+			"id" : 0,
+			"source" :  -1,
+			"label" : "fin:  path: 0:4855 , ",
+			"size" : 4855,
+			"level" : 0,
+			"style" : "",
+			"isred" :  1,
+			"issink" :  0,
+			"isblue" :  0,
+			"trace" :  "0 0",
+			"data" :  {"path_counts":{"0":4855},"total_final":0,"total_paths":4855}
+		}
+	],
+	"edges" : [
+
+	]
+}
